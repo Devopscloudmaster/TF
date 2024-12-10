@@ -4,7 +4,7 @@
 name: John Doe
 age: 30
 is_student: false
-email: Swapnil@gmail.com
+email: chavan2@example.com
 
 # List of items
 hobbies:
@@ -14,7 +14,7 @@ hobbies:
 
 # Nested object
 address:
-  street: 123 Elm Street
+  street: 1234 Elm Street
   city: Somewhere
   state: CA
   zip_code: 90210
@@ -24,7 +24,7 @@ employment:
   current_job:
     title: Software Developer
     company: TechCorp
-    start_date: 2022-03-15
+    start_date: 2022-03-15-0
     responsibilities:
       - Writing code
       - Code reviews
