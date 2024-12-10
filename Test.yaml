@@ -1,0 +1,307 @@
+# YAML 100 lines example
+
+# Basic Key-Value pairs
+name: John Doe
+age: 30
+is_student: false
+email: johndoe@example.com
+
+# List of items
+hobbies:
+  - Reading
+  - Hiking
+  - Photography
+
+# Nested object
+address:
+  street: 123 Elm Street
+  city: Somewhere
+  state: CA
+  zip_code: 90210
+
+# More complex nested structure
+employment:
+  current_job:
+    title: Software Developer
+    company: TechCorp
+    start_date: 2022-03-15
+    responsibilities:
+      - Writing code
+      - Code reviews
+      - Team meetings
+    skills_required:
+      - Python
+      - JavaScript
+      - SQL
+  previous_jobs:
+    - title: Junior Developer
+      company: DevWorks
+      start_date: 2020-06-01
+      end_date: 2022-03-14
+      skills_used:
+        - Python
+        - Git
+    - title: Intern
+      company: WebTech
+      start_date: 2019-06-01
+      end_date: 2020-05-31
+      skills_used:
+        - HTML
+        - CSS
+        - JavaScript
+
+# A list of users
+users:
+  - id: 1
+    name: Alice
+    role: Admin
+    active: true
+  - id: 2
+    name: Bob
+    role: User
+    active: true
+  - id: 3
+    name: Charlie
+    role: Moderator
+    active: false
+  - id: 4
+    name: Dana
+    role: Admin
+    active: true
+  - id: 5
+    name: Eva
+    role: User
+    active: true
+  - id: 6
+    name: Frank
+    role: Moderator
+    active: true
+  - id: 7
+    name: Grace
+    role: User
+    active: false
+  - id: 8
+    name: Henry
+    role: Admin
+    active: true
+  - id: 9
+    name: Isabelle
+    role: User
+    active: true
+  - id: 10
+    name: Jack
+    role: Moderator
+    active: false
+
+# List of products
+products:
+  - id: 101
+    name: Laptop
+    price: 1200
+    category: Electronics
+    stock: 25
+    on_sale: true
+  - id: 102
+    name: Smartphone
+    price: 800
+    category: Electronics
+    stock: 50
+    on_sale: false
+  - id: 103
+    name: Chair
+    price: 150
+    category: Furniture
+    stock: 100
+    on_sale: false
+  - id: 104
+    name: Desk
+    price: 300
+    category: Furniture
+    stock: 30
+    on_sale: true
+  - id: 105
+    name: Refrigerator
+    price: 500
+    category: Appliances
+    stock: 15
+    on_sale: false
+  - id: 106
+    name: Washing Machine
+    price: 600
+    category: Appliances
+    stock: 10
+    on_sale: true
+  - id: 107
+    name: TV
+    price: 1500
+    category: Electronics
+    stock: 20
+    on_sale: false
+  - id: 108
+    name: Coffee Maker
+    price: 100
+    category: Appliances
+    stock: 75
+    on_sale: true
+  - id: 109
+    name: Microwave
+    price: 200
+    category: Appliances
+    stock: 40
+    on_sale: false
+  - id: 110
+    name: Blender
+    price: 50
+    category: Appliances
+    stock: 60
+    on_sale: true
+
+# Configuration settings
+settings:
+  theme: dark
+  language: en
+  notifications:
+    email: true
+    sms: false
+    push: true
+  timezone: GMT-5
+
+# Environment variables
+env:
+  database_url: postgres://username:password@localhost/db
+  secret_key: mysecretkey
+  api_key: api_key_example
+  redis_host: localhost
+  redis_port: 6379
+
+# Logging configuration
+logging:
+  level: info
+  file: /var/log/app.log
+  rotate: true
+  max_size: 10MB
+  max_backups: 5
+  max_age: 30
+
+# List of projects
+projects:
+  - id: 1001
+    name: Project A
+    description: Web application for customer management
+    start_date: 2023-01-01
+    end_date: 2023-12-31
+    status: ongoing
+  - id: 1002
+    name: Project B
+    description: Mobile app for fitness tracking
+    start_date: 2023-04-01
+    end_date: 2024-04-01
+    status: planned
+  - id: 1003
+    name: Project C
+    description: AI-powered analytics tool
+    start_date: 2023-06-01
+    end_date: 2024-06-01
+    status: ongoing
+  - id: 1004
+    name: Project D
+    description: E-commerce platform
+    start_date: 2023-07-01
+    end_date: 2024-07-01
+    status: completed
+  - id: 1005
+    name: Project E
+    description: Internal knowledge base
+    start_date: 2023-02-01
+    end_date: 2023-08-01
+    status: completed
+
+# System monitoring configuration
+monitoring:
+  cpu:
+    threshold: 85
+    alert: true
+  memory:
+    threshold: 75
+    alert: true
+  disk:
+    threshold: 90
+    alert: true
+  network:
+    threshold: 80
+    alert: false
+
+# API configuration
+api:
+  version: 1.0
+  base_url: https://api.example.com/v1
+  timeout: 30s
+  retries: 3
+  endpoints:
+    - name: Get User Data
+      path: /users/{user_id}
+      method: GET
+      description: Fetch user data by ID
+    - name: Create User
+      path: /users
+      method: POST
+      description: Create a new user
+    - name: Update User
+      path: /users/{user_id}
+      method: PUT
+      description: Update user data by ID
+    - name: Delete User
+      path: /users/{user_id}
+      method: DELETE
+      description: Delete a user by ID
+    - name: List Products
+      path: /products
+      method: GET
+      description: List all products
+
+# API response formats
+response_formats:
+  success:
+    status: 200
+    message: "Request successful"
+  not_found:
+    status: 404
+    message: "Resource not found"
+  server_error:
+    status: 500
+    message: "Internal server error"
+
+# Sample data
+sample_data:
+  - id: 1
+    name: Alice
+    email: alice@example.com
+    age: 25
+  - id: 2
+    name: Bob
+    email: bob@example.com
+    age: 30
+  - id: 3
+    name: Charlie
+    email: charlie@example.com
+    age: 35
+  - id: 4
+    name: Dana
+    email: dana@example.com
+    age: 40
+  - id: 5
+    name: Eva
+    email: eva@example.com
+    age: 45
+
+# Time scheduling
+schedule:
+  daily:
+    task1: "Run system backup"
+    task2: "Check server health"
+  weekly:
+    task1: "Clear cache"
+    task2: "Update software"
+  monthly:
+    task1: "Generate performance report"
+    task2: "Review security logs"
